@@ -106,3 +106,29 @@ console.log(typeof selectedColors);
 // Accessing the properties of Array Type object e.g. length which is the number og elements in Array type objects.
 console.log(selectedColors.length);
 
+// Functions - Set of statements that performs a task or calculate values.
+// function greet() {
+//     // Body of the function
+//     console.log('Hello World From Function');
+// } // No need of semicolon in function declaration
+
+// greet();
+
+// Functions ca nhave inputs - parameters in function definition
+// Function can have multiple parameters
+function greet(name, lastName) {
+    // Body of the function
+    console.log('Hello ' + name + ' '+ lastName);
+} // No need of semicolon in function declaration
+
+greet('John'); // John is an argument of the greet function.
+
+// Parameter = defines at the time of function declaration
+// Argument = Is provided at the time of function call.
+
+greet("Mary");
+
+// Default value of variable in JAVA Script is undefined
+
+greet('John', 'Smith');
+
