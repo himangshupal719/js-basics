@@ -90,5 +90,19 @@ console.log(person.age);
 console.log(typeof person[selection]);
 
 // Arrays
-
+// [] --> Empty array
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors);
+console.log(selectedColors[0]);
+console.log(selectedColors[1]);
+// Dynamically adding elements in an array.
+selectedColors[2] = 'green';
+console.log(selectedColors);
+// Array can have different types of objects. Here with string number object as element. 
+selectedColors[2] = 1;
+console.log(selectedColors);
+// What kind of object is selectedColors?
+console.log(typeof selectedColors);
+// Accessing the properties of Array Type object e.g. length which is the number og elements in Array type objects.
+console.log(selectedColors.length);
 
