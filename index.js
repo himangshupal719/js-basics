@@ -67,7 +67,7 @@ let person = {
     age: '30'
 }
 
-console.log(person);
+//console.log(person);
 
 // 2 ways to work with the preperties 
 
@@ -76,6 +76,8 @@ console.log(person);
 person.name = ' John';
 // Read the value of the property
 console.log(person.name);
+
+console.log(person);
 
 // Bracket Notation
 person['name'] = ' Mary';
@@ -95,15 +97,16 @@ let selectedColors = ['red', 'blue'];
 console.log(selectedColors);
 console.log(selectedColors[0]);
 console.log(selectedColors[1]);
+console.log(selectedColors)
 // Dynamically adding elements in an array.
 selectedColors[2] = 'green';
-console.log(selectedColors);
+console.log(selectedColors)
 // Array can have different types of objects. Here with string number object as element. 
 selectedColors[2] = 1;
 console.log(selectedColors);
 // What kind of object is selectedColors?
 console.log(typeof selectedColors);
-// Accessing the properties of Array Type object e.g. length which is the number og elements in Array type objects.
+// Accessing the properties of Array Type object e.g. length which is the number of elements in Array type objects.
 console.log(selectedColors.length);
 
 // Functions - Set of statements that performs a task or calculate values.
@@ -114,7 +117,7 @@ console.log(selectedColors.length);
 
 // greet();
 
-// Functions ca nhave inputs - parameters in function definition
+// Functions can have inputs - parameters in function definition
 // Function can have multiple parameters
 function greet(name, lastName) {
     // Body of the function
