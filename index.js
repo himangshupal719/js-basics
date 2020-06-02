@@ -135,3 +135,14 @@ greet("Mary");
 
 greet('John', 'Smith');
 
+// Performing a Task 
+
+function square(number){
+
+    return number * number 
+}
+
+// let number = square(2);
+// console.log(number);
+console.log(square(3));
+
